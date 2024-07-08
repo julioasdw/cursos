@@ -1,0 +1,49 @@
+.border {
+	border: 1px solid red;
+}
+
+/*Seletor Universal*/
+*{
+	/*color: pink;*/
+}
+
+/*Seltor de texto*/
+h4 {
+	color: #363636;
+}
+
+/*Seletor de class*/
+.verde {
+	color: green;
+}
+
+p.verde, h5.verde {
+	color: blue;
+}
+
+/*Seletor de ID*/
+#vermelho {
+	color: red;
+	background: white;
+}
+
+/*Seletor de Filho*/
+div>p {
+	color: orange;
+}
+
+/*Seletor de Descendente*/
+p a {
+	color: pink;
+	text-decoration: none;
+}
+
+/*Seletor de Irmao adjacente*/
+
+h1+p {
+	color: yellow;
+}
+
+h1~a {
+	color: red;
+}
