@@ -47,3 +47,39 @@ h1+p {
 h1~a {
 	color: red;
 }
+
+/*60. HERANÇA E ESPECIFICIDADE<*/
+.pagina {
+	border: 1px solid red;
+	background: gray;
+	font-size: 10px;
+	color: red;
+}
+
+h4#amarelo {
+	color: yellow;
+}
+
+h4.verde {
+	color: green;
+}
+
+.esp1 {
+	color: blue;
+}
+
+/*61.CRIANDO BARRA DE NAVEGACAO VERTICAL*/
+.barraLinkPrincipal {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.barraLink {
+	width: 400px;
+	padding: 10px 20px;
+	background-image: ../imagens/seta.png;
+	margin: 10px 20p;
+	border: 1px solid red;
+	display: block;
+}
